@@ -17,7 +17,7 @@ import router from "./router.js";
 import fileUpload from 'express-fileupload';
 
 const PORT = 4000; //define the server access port, the port must be free, not in use with other project
-const DB_URL = `mongodb+srv://napiat1:trambler33@cluster0.vnsxfw3.mongodb.net/?retryWrites=true&w=majority`; //MongoDB connection url
+const DB_URL = `mongodb+srv://login:password@cluster0.vnsxfw3.mongodb.net/?retryWrites=true&w=majority`; //MongoDB connection url
 const app = express() // define the main app
 
 app.use(express.json()) //by default express don't recognise json format, we have to define it, it is necessary for req (post queries from browser)
